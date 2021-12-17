@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./Assets/lego.png" type="image/x-icon">
+</head>
+<style>
+    
+</style>
+
+<body>
+    <div class="page">
+        <!-- Main Content  -->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="./Assets/lego.png" alt="">
+                    <ul>
+                        <li><a href="">EXCLUSIVOS</a></li>
+                        <li><a href="">NUEVOS</a></li>
+                        <li><a href="">GIFT CARD</a></li>
+                        <li><a href="">FIND A STORE</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="main-content">
+                <p>Diseña tu</p>
+                <h1>Super Heroe!</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem officia dolores unde nobis modi
+                    doloribus rem aperiam ipsam cum reiciendis, magnam provident, necessitatibus accusantium, nam quis
+                    explicabo quasi magni sit!</p>
+            </section>
+            <section class="side-content">
+                <div></div>
+                <p>Superman</p>
+                <img src="./Assets/super-man.png" alt="Super man">
+            </section>
+
+            <section class="footer">
+                <div id="button1">
+                    <img src="./Assets/spiderman.png" alt="Spider man">
+                </div>
+                <div id="button2">
+                    <img src="./Assets/robin.png" alt="Robin">
+                </div>
+                <div id="button3">
+                    <img src="./Assets/batman.webp" alt="Bataman">
+                </div>
+            </section>
+        </section>
+        <!-- Loader -->
+        <section class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <!-- Modal -->
+        <section class="modal hidden">
+            <div class="modal__content">
+                <img src="./Assets/macos-close.png" alt="" class="modal__content--close">
+
+                <div class="modal__content--slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2" >
+                    <input type="radio" name="slider-1" id="radio-3" >
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="" alt="" id="card-image-1" class="card__image">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="" id="card-image-2" class="card__image">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="" id="card-image-3" class="card__image">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
